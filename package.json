@@ -1,0 +1,36 @@
+{
+  "name": "mexc-volume-monitor",
+  "version": "1.0.0",
+  "description": "Мониторинг аномальных объемов торговли на бирже MEXC",
+  "main": "volume-monitor.js",
+  "scripts": {
+    "start": "node index.js",
+    "monitor": "node volume-monitor.js",
+    "monitor:v2": "node volume-monitor-v2.js",
+    "test": "node test-monitor.js",
+    "test:telegram": "node test-telegram.js",
+    "get:chatid": "node get-chat-id.js",
+    "find": "node symbol-finder.js suggest",
+    "find:lowcap": "node symbol-finder.js lowcap",
+    "find:volatile": "node symbol-finder.js volatile",
+    "find:top": "node symbol-finder.js top",
+    "find:futures": "node futures-finder.js suggest",
+    "find:futures:top": "node futures-finder.js top",
+    "find:futures:volatile": "node futures-finder.js volatile",
+    "find:futures:lowcap": "node futures-finder.js lowcap"
+  },
+  "keywords": [
+    "mexc",
+    "crypto",
+    "volume",
+    "trading",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  }
+}
