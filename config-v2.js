@@ -84,6 +84,6 @@ module.exports = {
     // TELEGRAM УВЕДОМЛЕНИЯ
     // ========================================
 
-    telegramToken: "7965649045:AAFiiaHtGCIG35iCezTd3u_fdT09Da1UM4I",
-    telegramChatId: "-5030841108",
+    telegramToken: "8477737545:AAELGQ7lRMWFShNdB0KtnP_3k2CSiC6KQvU",
+    telegramChatId: "8477737545",
 };
