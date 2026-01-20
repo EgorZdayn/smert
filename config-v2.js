@@ -22,16 +22,16 @@ module.exports = {
     symbols: [
         // === SPOT ПРИМЕРЫ ===
         'STABLEUSDT',
-        // 'BTCUSDT',
-        // 'ETHUSDT',
-        // 'PEPUSDT',
-        // 'SHIBUSDT',
-        
+        'VCUSDT',
+        'TUNAUSDT',
+        'GHTUSDT',
+        'LIFEUSDT',
+        'FUSEUSDT',
         // === FUTURES ПРИМЕРЫ ===
         'BTC_USDT',
-        'AUDIO_USDT'
-        // 'ETH_USDT',
-        // 'PEPE_USDT',
+        'AUDIO_USDT',
+       'ORE_USDT',
+        'MAMO_USDT',
         // 'SHIB_USDT',
     ],
     
@@ -65,7 +65,7 @@ module.exports = {
      * 2.0 = объем вырос в 2 раза
      * 3.0 = объем вырос в 3 раза
      */
-    volumeMultiplier: 2.0,
+    volumeMultiplier: 5.0,
     
     /**
      * Интервал проверки (в миллисекундах)
@@ -78,7 +78,7 @@ module.exports = {
      * Размер истории для расчета среднего
      * 24 = храним последние 24 проверки
      */
-    historySize: 24,
+    historySize: 80,
     
     // ========================================
     // TELEGRAM УВЕДОМЛЕНИЯ
