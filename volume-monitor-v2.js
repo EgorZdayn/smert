@@ -410,10 +410,13 @@ if (require.main === module) {
             'STABLEUSDT',      // Spot (автоопределение)
             'BTC_USDT',        // Futures (автоопределение по _)
             'AUDIO_USDT'
-            // 'ETHUSDT',      // Spot
-            // 'ETH_USDT',     // Futures
+        'VCUSDT',
+        'TUNAUSDT',
+        'GHTUSDT',
+        'LIFEUSDT',
+        'FUSEUSDT',
         ],
-        volumeMultiplier: 2.0,
+        volumeMultiplier: 5.0,
         checkInterval: 60000,
         historySize: 24,
         
